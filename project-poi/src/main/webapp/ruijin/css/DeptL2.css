@@ -1,0 +1,75 @@
+﻿body {
+}
+
+#deptl2content
+{
+	border: 1px solid #CCC;
+	padding: 5px;
+	width: 352px;
+}
+.close
+{
+    float: right;
+    width: 20px;
+    height: 20px;
+    color: #666;
+    text-align: center;
+    font: bold 16px Simsun;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+#tip
+{
+    height: 24px;
+    margin-bottom: 6px;
+    border-bottom: 2px solid #ccc;
+    font-size: 14px;
+    margin-left: 10px;
+}
+#tip li
+{
+    float: left;
+    display: inline;
+    margin-right: 5px;
+    line-height: 24px;
+    cursor: pointer;
+    width: 72px;
+}
+#tip li.selected
+{
+    border-bottom: 2px solid #06c;
+    margin-bottom: -2px;
+    font-weight: bold;
+    color: #06c;     
+}
+#dept0
+{
+    margin-top: 10px;
+    margin-left: 35px;
+    display: block;
+}
+#dept1,#dept2,#dept3
+{
+    margin-top: 10px;
+    margin-left: 35px;
+    display: none;
+}
+.lbldeptl2
+{
+	display: inline-block;
+	width: 150px;
+	height: 24px;
+	margin: 0 0 5px 5px;
+	white-space: normal;
+	overflow: hidden;
+	line-height: 24px;
+	color: #333;
+	cursor: pointer;
+	font-size: 13px;
+	text-align: justify;
+}
+.lbldeptl2:hover
+{
+	color: #FFFFFF;
+	background-color: #0099FF;
+}

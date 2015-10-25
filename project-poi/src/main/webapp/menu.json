@@ -1,0 +1,34 @@
+{
+   "menus" : [{"icon" : "icon-sys","menuid" : "1","menuname" : "系统管理","url" : "","menus" : [
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "用户管理","url" : "/yycgproject/user/userquery.action"
+                 }] 
+               },
+               {"icon" : "icon-sys","menuid" : "1","menuname" : "药品目录","url" : "","menus" : [
+                 
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "药品信息导出","url" : "/yycgproject/ypml/ypxxExport.action"
+                 },
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "药品信息导入","url" : "/yycgproject/ypml/ypxximport.action"
+                 },
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "供货商药品目录维护","url" : "/yycgproject/ypml/gysypmlquery.action"
+                 },
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "供货商药品目录控制","url" : "/yycgproject/ypml/gysypmlcontrolquery.action"
+                 }] 
+               },{"icon" : "icon-sys","menuid" : "1","menuname" : "采购单管理","url" : "","menus" : [
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "创建采购单","url" : "/yycgproject/cgd/yycgdadd.action"
+                 },
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "采购单维护","url" : "/yycgproject/cgd/yycgdmanager.action"
+                 },
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "采购单审核","url" : "/yycgproject/cgd/yycgdchecklist.action"
+                 },
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "采购单受理","url" : "/yycgproject/cgd/yycgdmxFH.action"
+                 },
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "入库","url" : "/yycgproject/cgd/yycgdmxRK.action"
+                 }] 
+               },{"icon" : "icon-sys","menuid" : "1","menuname" : "统计分析","url" : "","menus" : [
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "交易明细查询","url" : "/yycgproject/business/businessquery.action"
+                 },
+                 {"icon" : "icon-log","menuid" : "1_1","menuname" : "按药品统计","url" : "/yycgproject/business/business_ypxx.action"
+                 }] 
+               }
+             ]
+}

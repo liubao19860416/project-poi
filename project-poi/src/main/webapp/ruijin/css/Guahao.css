@@ -1,0 +1,1062 @@
+﻿body
+{
+	font-family: 微软雅黑;
+}
+
+.btn_collect
+{
+	cursor: pointer; 
+	border-style: none; 
+	width: 120px; 
+	height: 30px; 
+	background-color: #86BC4C; 
+	display: inline-block; 
+	color: #FFFFFF; 
+	text-align: center; 
+	font-family: 微软雅黑; 
+	font-size: 12.5px;
+}
+
+.onfocus
+{
+	background-color: #E6E6E6;
+}
+
+.index_search
+{
+	margin: 20px 29px 0px 20px;
+	border-width: 1px;
+	border-color: Silver;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;
+}
+.index_label
+{
+	margin: 0px 29px 0px 14px;
+	height: 60px;
+}
+.index_doctor
+{
+	margin: -10px 29px 20px 20px;
+	border-width: 1px;
+	border-color: Silver;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	padding-bottom: 10px;
+}
+
+ul.search_memu li
+{
+	font-size: 18px;
+    background-color: rgb(245,245,245);
+    float: left;
+    width: 264px;
+}
+ul.search_memu li a
+{
+	color: Gray;
+	line-height: 42px;
+	display: block;
+	text-decoration: none;
+	text-align: center;	
+	cursor: pointer;
+}
+ul.search_memu li #doctor a
+{
+	border-width: 1px;
+	border-color: Silver;
+	border-bottom-style: solid;
+}
+ul.search_memu li #disease a
+{
+	border-width: 1px;
+	border-color: Silver;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+}
+ul.search_memu li #common a
+{
+	border-width: 1px;
+	border-color: Silver;
+	border-bottom-style: solid;
+}
+ul.search_memu li a:hover
+{
+	color: black;
+    background-color: white;
+    border-bottom-color: White;
+}
+ul.search_memu li.selected a
+{
+	color: black;
+	border-bottom-style: none;
+	background-image: url(../Images/Common/lbl_label.png);
+}
+
+.search_button
+{
+	margin-top: 20px;
+}
+.search_button_search
+{
+	cursor: pointer; 
+	float: left;
+}
+.search_button_reset
+{
+	cursor: pointer; 
+	float: left;
+}
+.search_label
+{
+	margin-bottom: 5px;
+}
+#HospitalId
+{
+	width: 250px;
+	height: 24px;
+	font-family: 微软雅黑;
+}
+#DeptL2
+{
+	width: 360px;
+	height: 23px;
+	font-family: 微软雅黑;
+}
+#DeptL1
+{
+	width: 250px;
+	height: 24px;
+	font-family: 微软雅黑;
+}
+#Keyword
+{
+	width: 360px;
+	height: 23px;
+	font-family: 微软雅黑;
+}
+
+.doctor_index
+{
+    height: 180px;
+}
+.doctor_line
+{
+	border-width: 1px;
+	border-color: #D5ECFC;
+	border-bottom-style: dashed;
+	height: 10px;
+	margin-bottom: 10px;
+}
+.doctor_image
+{
+    width: 100px; 
+    height: 140px; 
+    float: left; 
+    margin-left: 10px;
+}
+.doctor_info
+{
+    width: 120px; 
+    height: 140px; 
+    float: left; 
+    margin-left: 10px;
+}
+.disease_info
+{
+    width: 105px; 
+    height: 140px; 
+    float: left; 
+    margin-left: 10px;
+}
+.doctor_info_table
+{
+	width: 120px;
+	height: 140px;
+	font-size: 12px;
+	color: #696969;
+	border-collapse: collapse;
+}
+.doctor_info_name
+{
+	font-size: 16px;
+	font-weight: bold;
+	color: #696969;
+	text-decoration: none;
+}
+.doctor_info_name:hover
+{
+	text-decoration: none;
+}
+.doctor_info_disease
+{
+    font-size: 14px; 
+    font-weight: bold
+}
+.doctor_prev
+{
+	float: left;
+	margin-left: -20px;
+}
+.doctor_next
+{
+    float: right;
+}
+.doctor_btn_control_prev
+{
+	margin-top: -1px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	visibility: hidden;
+}
+.doctor_btn_control_next
+{
+	margin-top: -1px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	visibility: visible;
+}
+.empty_content
+{
+	float: left;
+	margin-left: 20px;
+	margin-top: 60px;
+	font-size: 12pt;
+}
+.doctor_content
+{
+	height: 160px;
+	width: 540px;
+	float: left;
+	overflow-x: auto;
+	overflow-y: hidden;
+	margin-left: 5px;
+}
+.disease_content
+{
+	height: 160px;
+	width: 650px;
+	float: left;
+	overflow-x: auto;
+	overflow-y: hidden;
+	margin-left: 15px;
+}
+.common_content
+{
+	height: 160px;
+	width: 650px;
+	float: left;
+	overflow-x: auto;
+	overflow-y: hidden;
+	margin-left: 15px;
+}
+.doctor_content_table_x
+{
+	height: 140px;
+	width: 135px;
+	background-color: #FFFFFF;
+	border-collapse: collapse;
+	text-align: center;
+	float: left;
+}
+.disease_content_table_x
+{
+	height: 140px;
+	width: 130px;
+	background-color: #FFFFFF;
+	border-collapse: collapse;
+	text-align: center;
+	float: left;
+}
+.common_content_table_x
+{
+	height: 140px;
+	width: 130px;
+	background-color: #FFFFFF;
+	border-collapse: collapse;
+	text-align: center;
+	float: left;
+}
+.doctor_content_table_y
+{
+	height: 140px;
+	width: 135px;
+	background-color: #FBFCFE;
+	border-collapse: collapse;
+	text-align: center;
+	float: left;
+}
+.disease_content_table_y
+{
+	height: 140px;
+	width: 130px;
+	background-color: #FBFCFE;
+	border-collapse: collapse;
+	text-align: center;
+	float: left;
+}
+.common_content_table_y
+{
+	height: 140px;
+	width: 130px;
+	background-color: #FBFCFE;
+	border-collapse: collapse;
+	text-align: center;
+	float: left;
+}
+.doctor_content_table_td
+{
+	border-top-style: dashed;
+	border-width: 1px;
+	border-color: #0099FF;
+	height: 26px;
+}
+.disease_content_table_td
+{
+	border-top-style: dashed;
+	border-width: 1px;
+	border-color: #0099FF;
+	height: 26px;
+}
+.common_content_table_td
+{
+	border-top-style: dashed;
+	border-width: 1px;
+	border-color: #0099FF;
+	height: 26px;
+}
+.doctor_content_available
+{
+	vertical-align: top;
+	margin-left: 10px;
+	cursor: pointer;
+	color: #33CC33;
+}
+.disease_content_available
+{
+	vertical-align: top;
+	margin-left: 10px;
+	cursor: pointer;
+	color: #33CC33;
+}
+.common_content_available
+{
+	vertical-align: top;
+	margin-left: 10px;
+	cursor: pointer;
+	color: #33CC33;
+}
+.doctor_content_cancelled
+{
+	vertical-align: top;
+	margin-left: 10px;
+	color: #808080;
+}
+.disease_content_cancelled
+{
+	vertical-align: top;
+	margin-left: 10px;
+	color: #808080;
+}
+.common_content_cancelled
+{
+	vertical-align: top;
+	margin-left: 10px;
+	color: #808080;
+}
+.doctor_content_unavailable
+{
+	vertical-align: top;
+	margin-left: 10px;
+	color: #FF0000;
+}
+.disease_content_unavailable
+{
+	vertical-align: top;
+	margin-left: 10px;
+	color: #FF0000;
+}
+.common_content_unavailable
+{
+	vertical-align: top;
+	margin-left: 10px;
+	color: #FF0000;
+}
+.doctor_content_title
+{
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #3396E7;
+	color: #FFFFFF;
+	height: 28px;
+}
+.disease_content_title
+{
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #3396E7;
+	color: #FFFFFF;
+	height: 28px;
+}
+.common_content_title
+{
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #3396E7;
+	color: #FFFFFF;
+	height: 28px;
+}
+
+#popupLayer_respopup
+{
+	display: none;
+}
+#popupLayer_confirmpopup
+{
+	display: none;
+}
+#popupLayer_logonpopup
+{
+	display: none;
+	background-color: #FFFFFF;
+}
+#popupLayer_infopopup
+{
+	display: none;
+	background-color: #FFFFFF;
+}
+#popupLayer_cardpopup
+{
+	display: none;
+	background-color: #FFFFFF;
+}
+#popupLayer_deptl2popup
+{
+	display: none;
+	background-color: #FFFFFF;
+}
+#resreservation
+{
+	background-repeat: no-repeat;
+	width: 790px;
+	height: 532px;
+}
+#confirminfo
+{
+	background-repeat: no-repeat;
+	width: 790px;
+	height: 532px;
+	background-image: url(../Images/Doctor/confirm.png);
+}
+.reservation_blank
+{
+	height: 180px;
+}
+.resblank_btn_close
+{
+	float: right; 
+	cursor: pointer;
+}
+#resdoctor
+{
+	float: left; 
+	width: 250px;
+}
+.resdoctor_index
+{
+	margin-left: 23px; 
+	margin-top: 16px; 
+	height: 120px
+}
+.resdoctor_photo
+{
+	float: left; 
+	height: 120px;
+}
+.resdoctor_photo_size
+{
+	width: 84px; 
+	height: 118px;
+	border-style: none;
+}
+.resdoctor_doctor
+{
+	float: left; 
+	height: 120px; 
+	width: 120px; 
+	margin-left: 5px;
+}
+.resdoctor_doctor_table
+{
+	height: 120px; 
+	width: 120px; 
+	font-size: 12px;
+	color: #696969;
+	border-collapse: collapse
+}
+.resdoctor_doctor_name
+{
+    font-size: 14px; 
+    font-weight: bold
+}
+.resdoctor_doctor_disease
+{
+    font-size: 12px; 
+    font-weight: bold
+}
+.resdoctor_score
+{
+    float: left; 
+    width: 84px; 
+    height: 60px;
+}
+.resdoctor_btn_score
+{
+	cursor: pointer; 
+    float: left; 
+    height: 50px; 
+    margin-left: 8px; 
+    margin-top: 10px;
+}
+.resdoctor_btn_collect
+{
+    margin-left: 60px; 
+    margin-top: 10px
+}
+.resdoctor_title
+{
+	margin-left: 24px;
+	height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.resdoctor_content
+{
+    margin-left: 24px; 
+    height: 50px
+}
+#restemplate
+{
+	float: left; 
+	width: 270px;
+	color: #000000; 
+	font-size: 13px;
+	border-collapse: collapse; 
+	vertical-align: top;
+}
+#restemplatesp
+{
+	float: left; 
+	width: 400px;
+	color: #000000; 
+	font-size: 13px;
+	border-collapse: collapse; 
+	vertical-align: top;
+	margin-left: 42px;
+}
+.restemplate_user
+{
+	height: 118px; 
+	margin-top: 5px; 
+	margin-left: 15px;
+}
+.restemplate_user_table
+{
+	height: 95px; 
+	width: 250px; 
+}
+.restemplate_user_td
+{
+	width: 80px; 
+}
+.restemplate_content
+{
+	height: 180px; 
+	margin-left: 15px;
+}
+.restemplate_content_table
+{
+	height: 180px; 
+	width: 250px; 
+}
+.restemplate_content_td
+{
+	width: 80px;
+}
+.restemplate_content_td_fee
+{
+	color: #FF0000;
+}
+
+#rescardinfo
+{
+	float: left; 
+	width: 250px;
+	margin-left: 13px; 
+	border-collapse: collapse; 
+	font-size: 13px; 
+	color: #000000; 
+}
+#rescardinfosp
+{
+	float: left; 
+	width: 320px;
+	margin-left: 13px; 
+	border-collapse: collapse; 
+	font-size: 13px; 
+	color: #000000; 
+}
+#UserCardId
+{
+	width: 240px;
+	height: 27px;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	font-weight: bold;
+}
+#VerifyCode
+{
+	width: 90px;
+	height: 24px;
+	margin-top: -2px;
+	margin-left: 2px;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	font-weight: bold;
+}
+#VerifyImage
+{
+	width: 80px; 
+	height: 30px;
+}
+.rescardinfo_cardinfo
+{
+	margin-top: 5px;
+	margin-left: 1px;
+}
+.rescardinfo_table
+{
+	height: 65px;
+}
+.rescardinfo_table_code
+{
+	height: 95px;
+}
+.rescardinfo_verifycode
+{
+	margin-top: 15px;
+	margin-left: 1px;
+	height: 65px;
+}
+.rescardinfo_verifycode_tr
+{
+	height: 30px;
+}
+.rescardinfo_verifycode_td
+{
+	width: 108px;
+}
+.rescardinfo_verifycode_label
+{
+	margin-left: 8px; 
+	cursor: pointer; 
+	color: #3FA1EC;
+}
+.rescardinfo_btn_reservation
+{
+	cursor: pointer; 
+	margin-top: 60px; 
+	margin-left: 12px;
+}
+#ErrorCode
+{
+    background: #ffd1f2;
+}
+
+#doctorcontent
+{
+    margin-left: 40px;
+}
+.doctorinfo_title
+{
+	margin-left: 15px;
+	width: 108px;
+	line-height: 30px;
+	color: White;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgb(52, 149, 231);
+	letter-spacing: 2px;
+}
+.doctorinfo_title_line
+{
+	width: 965px;
+	height: 1px;
+	background-color: rgb(52, 149, 231);
+	margin-bottom: 9px;
+}
+#doctorinfo
+{
+	height: 240px;
+}
+.doctorinfo_blank
+{
+	height: 20px
+}
+.doctorinfo_doctor
+{
+	float: left; 
+	margin-left: 25px; 
+	margin-top: 10px; 
+	width: 210px
+}
+.doctorinfo_info
+{
+	float: left; 
+	width: 378px
+}
+.doctorinfo_info_title
+{
+	font-size: 15px; 
+	font-weight: bold; 
+	color: #000000; 
+	margin-top: 7px; 
+	height: 30px; 
+	letter-spacing: 2px;
+}
+.doctorinfo_content
+{
+	font-size: 13px; 
+	width: 360px; 
+	text-indent: 28px; 
+	line-height: 23px;
+}
+.doctorinfo_rules
+{
+	float: left; 
+	width: 360px
+}
+.doctorinfo_rules_title
+{
+	font-size: 15px; 
+	font-weight: bold; 
+	color: #FF0000; 
+	margin-top: 7px; 
+	height: 30px; 
+	letter-spacing: 2px;
+}
+.doctorinfo_btn_collect
+{
+	margin-left: 35px; 
+	margin-top: 10px
+}
+
+#doctortemplate
+{
+	height: 300px;
+}
+.doctortemplate
+{
+	height: 280px;
+	width: 950px;
+	overflow-x: auto;
+	overflow-y: hidden;
+	border-width: 1px;
+	border-color: Silver;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+}
+.doctortemplate_table_x
+{
+	height: 270px;
+	width: 190px;
+	background-color: #FFFFFF;
+	border-collapse: collapse;
+	text-align: center;
+	float: left;
+}
+.doctortemplate_table_y
+{
+	height: 270px;
+	width: 190px;
+	background-color: #FBFCFE;
+	border-collapse: collapse;
+	text-align: center;
+	float: left;
+}
+.doctortemplate_table_td
+{
+	border-top-style: dashed;
+	border-width: 1px;
+	border-color: #0099FF;
+	height: 45px;
+}
+.doctortemplate_available
+{
+	vertical-align: top;
+	margin-left: 24px;
+	cursor: pointer;
+	color: #33CC33;
+}
+.doctortemplate_cancelled
+{
+	vertical-align: top;
+	margin-left: 24px;
+	color: #808080;
+}
+.doctortemplate_unavailable
+{
+	vertical-align: top;
+	margin-left: 24px;
+	color: #FF0000;
+}
+.doctortemplate_title
+{
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #3495E7;
+	color: #FFFFFF;
+	height: 44px;
+}
+.doctortemplate_prev
+{
+	margin-left: -7px;
+	z-index: 100;
+	position: absolute;
+}
+.doctortemplate_next
+{
+	margin-left: 920px;
+    z-index: 100;
+    position: absolute;
+}
+.doctortemplate_btn_control_prev
+{
+	margin-top: -1px;
+	width: 32px;
+	height: 55px;
+	cursor: pointer;
+	visibility: hidden;
+}
+.doctortemplate_btn_control_next
+{
+	margin-top: -1px;
+	width: 36px;
+	height: 55px;
+	cursor: pointer;
+    visibility: visible;
+}
+
+.doctordept_title
+{
+	margin-left: 15px;
+	width: 108px;
+	line-height: 30px;
+	color: White;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgb(52, 149, 231);
+	letter-spacing: 2px;
+}
+.doctordept_title_line
+{
+	width: 940px;
+	height: 1px;
+	background-color: rgb(52, 149, 231);
+	margin-bottom: 19px;
+}
+#doctordept
+{
+	height: 400px;
+}
+.doctordept_blank
+{
+	height: 25px
+}
+.doctordept_index
+{
+	float: left; 
+	margin-left: 5px; 
+	width: 235px; 
+	height: 130px
+}
+.doctordept_doctor
+{
+	float: left; 
+	height: 120px; 
+	width: 140px; 
+	margin-left: 10px;
+}
+.doctordept_doctor_table
+{
+	height: 120px; 
+	width: 140px; 
+	font-size: 12px;
+	color: #696969;
+	border-collapse: collapse
+}
+
+/*翻页控件*/
+.orderpager
+{
+    width: 800px;
+    height: 30px;
+    margin-top: 10px;
+}
+.orderpager_button
+{
+    width: 60px;
+    text-align: center;
+    padding-left: 10px;
+    float: left;
+    font-size: 14px;
+    color: #bbbbbb;
+}
+.orderpager_button a
+{
+    color: #5ca1fc;
+}
+.orderpager_text
+{
+    float: left;
+    width: 190px;
+    text-align: right;
+    font-size: 14px;
+    color: #2eb106;
+}
+
+#UserName
+{
+	font-family: 微软雅黑;
+}
+#Password
+{
+	font-family: 微软雅黑;
+}
+#VerifyCodeLog
+{
+	font-family: 微软雅黑;
+	height: 24px;
+	width: 80px;
+}
+.logon_label
+{
+    float: left;
+    width: 100px;
+    font-size:14px;
+    text-align: right;
+    padding-right: 5px;
+    line-height: 30px;
+}
+.logon_field
+{
+    float: left;
+    width: 240px;
+    font-size: 14px;
+    line-height: 30px;
+}
+#BtnLogon
+{
+    width: 120px;
+    height: 30px;
+    color: White;
+    background-color: rgb(134,188,76);
+    border: 1px solid rgb(33,191,3);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 10px;
+}
+#BtnLogon:hover
+{
+    background-color: rgb(104,158,56);
+}
+
+.link_color
+{
+	color: #3FA1EC;
+}
+
+.link_color_right
+{
+	width: 70px;
+	height: 30px;
+	color: #FFFFFF;
+	background-color: rgb(245,179,0);
+	border: 1px solid #DD621F;
+	font-size: 14px;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	float: right;
+	line-height: 30px;
+}
+.link_color_right:hover
+{
+    text-decoration:none;
+}
+.info_label
+{
+    float: left;
+    font-size: 14px;
+    text-align: left;
+    line-height: 30px;
+}
+.info_field
+{
+    float: left;
+    width: 360px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.logon_container
+{
+    padding-top: 3px;
+    padding-bottom: 1px;
+    width: 480px;
+}
+
+.basic_container
+{
+    padding-top: 3px;
+    padding-bottom: 1px;
+    width: 540px;
+}
+
+.tootip
+{
+	font-size: 16px;
+	color: #ffae50;
+	padding-left: 4px;
+}
+
+.order-list-link
+{
+	float: right;
+	color: #377bee;
+	text-decoration: none;
+}
+
+.doctorphoto
+{
+	border-style: none;
+}
+
+
+
+
+
+
+
+

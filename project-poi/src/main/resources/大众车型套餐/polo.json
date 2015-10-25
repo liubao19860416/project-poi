@@ -1,0 +1,255 @@
+{
+    "description": "",
+    "actived": "1",
+    "deleted": "0",
+    "createdDatetime": "CURRENT_TIMESTAMP",
+    "updatedDatetime": "CURRENT_TIMESTAMP",
+
+    "fitToVehicleScope": ",SDZPLO-1014L,SDZPLO-1016L,SDZPLO01014L,SDZPLO01016L,",
+    "docURL":"",
+    "laborHour":"0",
+    "price":"0",
+    "discountPrice":"0",
+    "$" : [ "t_suit_maintenance",
+        {
+        "sortIndex": "1",
+        "name": "检查车身内外照明用电功能设备",
+        "fitToSuit": ",a,b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "2",
+        "name": "检查安全气囊和安全带",
+        "fitToSuit": ",a,b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "3",
+        "name": "检查多功能方向盘",
+        "fitToSuit": ",a,b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "4",
+        "name": "检查手制动器",
+        "fitToSuit": ",a,b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "5",
+        "name": "VAS自诊断",
+        "fitToSuit": ",a,b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "6",
+        "name": "复位保养周期显示器",
+        "fitToSuit": ",b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "7",
+        "name": "检查活动天窗",
+        "fitToSuit": ",a,b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "8",
+        "name": "检查活动天窗排水功能",
+        "fitToSuit": ",c,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "9",
+        "name": "检查前大灯",
+        "fitToSuit": ",a,b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "10",
+        "name": "清洁前风窗落水槽排水孔",
+        "fitToSuit": ",a,b,c,d,e,f,g,1,2,",
+        "type": "清洁"
+    },
+    {
+        "sortIndex": "11",
+        "name": "检查雨刮器/清洗装置",
+        "fitToSuit": ",a,b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "12",
+        "name": "清洁灰尘滤器罩壳和滤芯",
+        "fitToSuit": ",b,d,f,g,1,2,",
+        "type": "清洁"
+    },
+    {
+        "sortIndex": "13",
+        "name": "更换空调滤芯",
+        "fitToSuit": ",c,e,f,g,1,2,",
+        "type": "更换"
+    },
+    {
+        "sortIndex": "14",
+        "name": "检查发动机舱",
+        "fitToSuit": ",a,b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "15",
+        "name": "检查冷却系统",
+        "fitToSuit": ",a,b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "16",
+        "name": "检查蓄电池",
+        "fitToSuit": ",a,b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "17",
+        "name": "清洁空气滤清器",
+        "fitToSuit": ",a,b,d,f,g,1,2,",
+        "type": "清洁"
+    },
+    {
+        "sortIndex": "18",
+        "name": "更换空气滤芯",
+        "fitToSuit": ",c,e,f,g,1,2,",
+        "type": "更换"
+    },
+    {
+        "sortIndex": "19",
+        "name": "更换火花塞",
+        "fitToSuit": ",d,e,f,g,1,2,",
+        "type": "更换"
+    },
+    {
+        "sortIndex": "20",
+        "name": "检查发动机燃烧室和进气道",
+        "fitToSuit": ",d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "21",
+        "name": "检查楔形皮带",
+        "fitToSuit": ",b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "22",
+        "name": "检查正时齿形皮带",
+        "fitToSuit": ",b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "23",
+        "name": "检查正时齿形皮带张紧轮",
+        "fitToSuit": ",b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "24",
+        "name": "检查水泵齿形皮带",
+        "fitToSuit": ",b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "25",
+        "name": "更换发动机机油及机油滤清器",
+        "fitToSuit": ",a,b,c,d,e,f,g,1,2,",
+        "type": "更换"
+    },
+    {
+        "sortIndex": "26",
+        "name": "检查手动变速箱",
+        "fitToSuit": ",b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "27",
+        "name": "更换自动变速箱ATF油",
+        "fitToSuit": ",e,f,g,1,2,",
+        "type": "更换"
+    },
+    {
+        "sortIndex": "28",
+        "name": "检查变速箱/传动轴护套",
+        "fitToSuit": ",b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "29",
+        "name": "检查转向横拉杆",
+        "fitToSuit": ",a,b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "30",
+        "name": "检查车身底部",
+        "fitToSuit": ",a,b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "31",
+        "name": "更换燃油滤清器",
+        "fitToSuit": ",e,f,g,1,2,",
+        "type": "更换"
+    },
+    {
+        "sortIndex": "32",
+        "name": "检查底盘螺栓",
+        "fitToSuit": ",a,b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "33",
+        "name": "检查制动系统",
+        "fitToSuit": ",a,b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "34",
+        "name": "检查制动盘/制动鼓/制动摩擦片",
+        "fitToSuit": ",b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "35",
+        "name": "检查轮胎/轮毂",
+        "fitToSuit": ",a,b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "36",
+        "name": "检查车轮固定螺栓",
+        "fitToSuit": ",a,b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "37",
+        "name": "检查车门限位器",
+        "fitToSuit": ",b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "38",
+        "name": "检查空调系统冷凝排水",
+        "fitToSuit": ",b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "39",
+        "name": "检测尾气排放",
+        "fitToSuit": ",d,e,f,g,1,2,",
+        "type": "检查"
+    },
+    {
+        "sortIndex": "40",
+        "name": "试车，性能检查",
+        "fitToSuit": ",a,b,c,d,e,f,g,1,2,",
+        "type": "检查"
+    }
+    ]
+}

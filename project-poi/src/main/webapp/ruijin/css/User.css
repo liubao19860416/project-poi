@@ -1,0 +1,185 @@
+﻿.buttonlike_org
+{
+    width:120px;
+    height:30px;
+    color: White;
+    background-color:rgb(245,179,0);
+    border: 1px solid #DD621F;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px 5px 0px 5px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+.buttonlike_org:hover
+{
+    text-decoration:none;
+}
+.buttonlike_org
+{
+    width:120px;
+    height:30px;
+    color: White;
+    background-color:rgb(245,179,0);
+    border: 1px solid #DD621F;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px 5px 0px 5px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+.buttonlike_org:hover
+{
+    text-decoration:none;
+}
+.logonform
+{
+    float:left;
+    width:570px;
+    border-right:1px solid rgb(226,226,226);
+}
+.guide
+{
+    float:right;
+    width:320px;
+    height:100%;
+    padding:0px 10px 10px;
+    line-height: 26px;
+}
+.guide_zc
+{
+    padding:20px 0px 20px 80px;
+}
+.item_explain
+{
+    float:left;
+    padding-left:125px;
+    font-size:16px;
+}
+.item_label
+{
+    float:left;
+    font-size:16px;
+    width: 150px;
+    text-align:right;
+    padding-right:5px;
+    line-height: 28px;
+}
+.item_field , .item_field1
+{
+    float:left;
+    font-size:16px;
+    line-height: 28px;
+}
+.item_field a ,.item_explain a
+{
+    color:rgb(61,159,234);
+}
+.item_field select
+{
+    font-size:16px;
+    width: 100px;
+}
+input[type="text"] ,input[type="password"] 
+{
+    font-size:16px;
+    width: 200px;
+    border: 1px solid #CCC;
+    vertical-align:top;
+}
+input[type="radio"]
+{
+    margin-top:0px;
+}
+.item_field1 input[type="text"] ,.item_field1 input[type="password"] 
+{
+    font-size:16px;
+    width: 80px;
+    border: 1px solid #CCC;
+    vertical-align:top;
+}
+.reg_message
+{
+    float:left;
+    width:180px;
+    line-height: 25px;
+    font-size:14px;
+}
+.reg_messagew
+{
+    float:left;
+    width:300px;
+    line-height: 25px;
+    font-size:14px;
+}
+/* changepassword */
+.sec_content
+{
+    margin:20px;
+    padding:0px 20px;
+    border:1px solid rgb(226,226,226);
+}
+.sec_content_item
+{
+    padding-top:10px;
+    padding-bottom:10px;
+    overflow:auto;
+}
+.sec_border_bottom
+{
+    border-bottom:1px dashed rgb(226,226,226);
+}
+.sec_fieldl
+{
+    float:left;
+    font-size:18px;
+    font-weight:bold;
+    width: 120px;
+    padding:20px 20px;
+    text-align:center;
+    background:url(../Images/Common/sec.jpg) left center no-repeat;
+}
+.sec_fieldm
+{
+    float:left;
+    font-size:16px;
+    width: 350px;
+    padding:10px 20px;
+    text-align:left;
+    line-height: 28px;
+    border-left:0px solid rgb(226,226,226);
+}
+.sec_fieldr
+{
+    float:left;
+    font-size:18px;
+    width: 100px;
+    padding:20px 20px;
+    text-align:center;
+    vertical-align:middle;
+    line-height: 28px;
+}
+.sec_fieldr a
+{
+    color:rgb(61,159,234);
+}
+.reportl
+{
+    text-align:right;
+    font-size:14px;
+    width:70px;
+}
+.reportr
+{
+    text-align:left;
+    font-size:14px;
+    width:100px;
+}
+.reportc
+{
+    text-align:center;
+    font-size:14px;
+    width:100%;
+}

@@ -1,0 +1,579 @@
+1.POST请求：
+<div class="doctor_index"><div class="doctor_line"></div><div class="doctor_image"><a href="../Guahao/Doctor?did=00000000010650&hid=42502656400&l1=03&l2=%e9%97%a8%e8%af%8a%e5%86%85%e5%88%86%e6%b3%8c" target="_blank"><img class="doctorphoto" src="/Upload/Doctor/42502656400/00000000010650.jpg" title="王曙" id="img4250265640000000000010650" /></a></div><div class="doctor_info"><table class="doctor_info_table"><tr><td><a class="doctor_info_name" href="../Guahao/Doctor?did=00000000010650&hid=42502656400&l1=03&l2=%e9%97%a8%e8%af%8a%e5%86%85%e5%88%86%e6%b3%8c" target="_blank">王曙</a></td></tr><tr><td>主任医师</td></tr><tr><td>门诊内分泌</td></tr><tr><td class="doctor_info_disease">主诊常见病：</td></tr><tr><td title="内分泌疾病、骨质疏松、糖尿病、甲状腺等">内分泌疾病、骨质疏松、糖尿病、甲状腺等</td></tr></table></div><div id="divDoctor0" class="doctor_content"><div style="width: 945px" ><table class="doctor_content_table_x"><tr><td class="doctor_content_title">2014-11-15 星期六</td></tr><tr><td class="doctor_content_table_td">08:00-08:59<label id="lbl14110700000205" class="doctor_content_unavailable">已满</label></td></tr><tr><td class="doctor_content_table_td">09:00-09:59<label id="lbl14110700000206" class="doctor_content_unavailable">已满</label></td></tr><tr><td class="doctor_content_table_td">10:00-10:59<label id="lbl14110700000207" class="doctor_content_unavailable">已满</label></td></tr><tr><td class="doctor_content_table_td">13:00-13:59<label id="lbl14101700000517" class="doctor_content_cancelled">停诊</label></td></tr></table><table class="doctor_content_table_y"><tr><td class="doctor_content_title">2014-11-18 星期二</td></tr><tr><td class="doctor_content_table_td">13:00-13:59<label id="lbl14102000000817" class="doctor_content_unavailable">已满</label></td></tr><tr><td class="doctor_content_table_td">14:00-14:59<label id="lbl14102000000723" class="doctor_content_unavailable">已满</label></td></tr><tr><td class="doctor_content_table_td">15:00-15:59<label id="lbl14102000000618" class="doctor_content_unavailable">已满</label></td></tr><tr><td class="doctor_content_table_td">&nbsp</td></tr></table><table class="doctor_content_table_x"><tr><td class="doctor_content_title">2014-11-22 星期六</td></tr><tr><td class="doctor_content_table_td">08:00-08:59<label id="lbl14110100000025" class="doctor_content_unavailable">已满</label></td></tr><tr><td class="doctor_content_table_td">13:00-13:59<label id="lbl14102400000631" class="doctor_content_cancelled">停诊</label></td></tr><tr><td class="doctor_content_table_td">&nbsp</td></tr><tr><td class="doctor_content_table_td">&nbsp</td></tr></table><table class="doctor_content_table_y"><tr><td class="doctor_content_title">2014-11-25 星期二</td></tr><tr><td class="doctor_content_table_td">13:00-13:59<label id="lbl14102700000659" class="doctor_content_unavailable">已满</label></td></tr><tr><td class="doctor_content_table_td">14:00-14:59<label id="lbl14102700000563" class="doctor_content_unavailable">已满</label></td></tr><tr><td class="doctor_content_table_td">15:00-15:59<label id="lbl14102700000455" class="doctor_content_unavailable">已满</label></td></tr><tr><td class="doctor_content_table_td">&nbsp</td></tr></table><table class="doctor_content_table_x"><tr><td class="doctor_content_title">2014-11-29 星期六</td></tr><tr><td class="doctor_content_table_td">13:00-13:59<label id="lbl14103100000651" class="doctor_content_unavailable">已满</label></td></tr><tr><td class="doctor_content_table_td">&nbsp</td></tr><tr><td class="doctor_content_table_td">&nbsp</td></tr><tr><td class="doctor_content_table_td">&nbsp</td></tr></table><table class="doctor_content_table_y"><tr><td class="doctor_content_title">2014-12-02 星期二</td></tr><tr><td class="doctor_content_table_td">13:00-13:59<label id="lbl14110300000631" class="doctor_content_unavailable">已满</label></td></tr><tr><td class="doctor_content_table_td">14:00-14:59<label id="lbl14110300000535" class="doctor_content_unavailable">已满</label></td></tr><tr><td class="doctor_content_table_td">15:00-15:59<label id="lbl14110300000428" class="doctor_content_unavailable">已满</label></td></tr><tr><td class="doctor_content_table_td">&nbsp</td></tr></table><table class="doctor_content_table_x"><tr><td class="doctor_content_title">2014-12-06 星期六</td></tr><tr><td class="doctor_content_table_td">13:00-13:59<label id="lbl14110700000639" class="doctor_content_unavailable">已满</label></td></tr><tr><td class="doctor_content_table_td">&nbsp</td></tr><tr><td class="doctor_content_table_td">&nbsp</td></tr><tr><td class="doctor_content_table_td">&nbsp</td></tr></table></div></div></div><script type="text/javascript"></script>
+2.
+ordertype=doctor&vefirycode=sa9t
+&usercardid=&hospitalid=42502656400&templateid=14111000000285&doctorname=王曙
+&hospitalname=瑞金医院&resdeptl2=门诊内分泌&date=2014-12-09 星期二&time=15:00-15:59&fee=20&address=
+
+<!DOCTYPE html>
+<html style="overflow-y: scroll">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>预约挂号</title>
+    <link href="/Content/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/Site.css" rel="stylesheet" type="text/css" />
+    <script src="/Scripts/jquery-1.7.2.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.unobtrusive-ajax.min.js" type="text/javascript"></script>
+    <script src="/Scripts/Custom/Common.js" type="text/javascript"></script>
+    <script src="/Scripts/Custom/Home.js" type="text/javascript"></script>
+</head>
+
+<body onload="load('menutop2','预约挂号')">
+    <div id="page">
+        <div id="header">
+            <div class="top_info">
+                <div class="top_info_right">
+                        欢迎您， <b>
+保                    </b> 
+    [ <a href="/Account/LogOff">退出</a> ]
+
+                </div>
+            </div>
+            <div class="top_logo">
+                <a href="" title="瑞金自助服务平台" id="topa"></a>
+            </div>
+            <div class="menutop_container">
+                <ul class="menutop">
+                    <li id="menutop1"><a href="/Home/Index">首页</a></li>
+                    <li id="menutop2"><a href="/Guahao/Index">应用中心</a></li>
+                    <li id="menutop3"><a href="/User/Index">个人中心</a></li>
+                    <li id="menutop4"><a href="/Guahao/Quick">快速预约</a></li>
+                    <li id="menutop5"><a href="/Info/Terms">关于我们</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <link href="/Content/User.css" rel="stylesheet" type="text/css" />
+            <div class="menuleft_container">
+                <ul class="menuleft">
+                    <span>我的应用</span>
+                    <li id="预约挂号"><a class="lv1" href="/Guahao/Index">预约挂号</a></li>
+                    <li id="账户管理"><a class="lv1" href="/Asset/Index">账户管理</a></li>
+                    <li id="我的预约单"><a class="lv1" href="/Guahao/Mine">我的预约单</a></li>
+                    <li id="我的专家"><a class="lv1" href="/Guahao/Expert">我的专家</a></li>
+                    <li id="我的化验单"><a class="lv1" href="/ExternalQuery/MyReports">我的化验单</a></li>
+                </ul>
+            </div>
+            <div class="content_container">
+                
+<link href="/Content/Guahao.css" rel="stylesheet" type="text/css" />
+<script src="/Scripts/Custom/Guahao.js" type="text/javascript"></script>
+
+<script>
+    $(document).ready(function () {
+        $(function () {
+            ChangeSelected($("#OrderType").val());
+
+            //if ($("#OrderType").val() == "doctor") {
+            //    register = "1";
+            //}
+            //else if ($("#OrderType").val() == "disease") {
+            //    register = "2";
+            //}
+            //else if ($("#OrderType").val() == "common") {
+            //    register = "3";
+            //}
+            register = "";
+            $.ajax({
+                type: "post",
+                url: "../Guahao/GetDeptL2",
+                data: 'hospitalid=' + $("#HospitalId").val() + '&deptl1=' + $("#DeptL1").val() + '&registertype=' + register + '&usein=textbox',
+                global: false,
+                success: function (data) {
+                    if (data != undefined && data != "-1") {
+                        $("#dept").html(data);
+                    }
+                    else {
+                        $("#dept").html("请手动输入查询");
+                    }
+                }
+            });
+
+            if ($("#DeptL2").val() != "") {
+                Search('0', 'search');
+            }
+        });
+    });
+</script>
+
+<div class="index_search">
+    <div>
+        <ul class="search_memu">
+            <li id="doctor"><a onclick = "javascript:ChangeSelected('doctor', 'false');">专家/特约专家</a></li>
+            <li id="disease"><a onclick = "javascript:ChangeSelected('disease', 'false');">专&nbsp;&nbsp;&nbsp;&nbsp;病</a></li>
+            <li id="common"><a onclick = "javascript:ChangeSelected('common', 'false');">普&nbsp;&nbsp;&nbsp;&nbsp;通</a></li>
+         </ul>
+    </div>
+    <div style="margin-top: 60px; margin-left: 120px; font-size: 14.5px; font-weight: bold;">
+        <table>
+            <tr style="display: none">
+                <td style="width: 150px; text-align: right; height: 36px;">请选择医院：</td>
+                <td><select id="HospitalId" name="HospitalId"><option value="42502656400">瑞金医院</option>
+</select></td>
+                
+            </tr>
+            <tr style="display: none">
+                
+                <td style="width: 150px; text-align: right; height: 36px;">请选择一级科室：</td>
+                <td><select id="DeptL1" name="DeptL1" onchange="javascript:GetDeptL2(&#39;false&#39;);"><option value="">请选择</option>
+<option value="02">全科医疗科</option>
+<option value="03">内科</option>
+<option value="04">外科</option>
+<option value="05">妇产科</option>
+<option value="07">儿科</option>
+<option value="08">小儿外科</option>
+<option value="10">眼科</option>
+<option value="11">耳鼻咽喉科</option>
+<option value="12">口腔科</option>
+<option value="13">皮肤科</option>
+<option value="15">精神科</option>
+<option value="16">传染科</option>
+<option value="19">肿瘤科</option>
+<option value="21">康复医学科</option>
+<option value="31">病理科</option>
+<option value="32">医学影像科</option>
+<option value="50">中医科</option>
+</select></td>
+            </tr>
+            <tr>
+                <td style="width: 150px; text-align: right; height: 36px;">请选择就诊科室：</td>
+                <td><input id="DeptL2" name="DeptL2" onfocus="javascript:DeptL2Show(this);" type="text" value="" /></td>
+                
+            </tr>
+            <tr>
+                <td style="width: 150px; text-align: right; height: 36px;">请输入关键字：</td>
+                <td><input id="Keyword" name="Keyword" onblur="javascript:RemoveOnfocus(this);" onfocus="javascript:AddOnfocus(this);" type="text" value="医生姓名/医生专长/疾病名称" /></td>
+            </tr>
+        </table>
+    </div>
+    <div class="search_button">
+        <table>
+            <tr>
+                <td style="width: 200px">
+                    &nbsp;
+                </td>
+                <td class="search_button_search">
+                    <img src="/Images/Common/btn_search.png" onclick="javascript:Search('0', 'search');" />
+                </td>
+                <td style="width: 80px">
+                    &nbsp;
+                </td>
+                <td class="search_button_reset">
+                    <img src="/Images/Common/btn_reset.png" onclick="javascript:ResetIndex();" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <img src="/Images/Common/lbl_search.png" class="search_label" />
+    </div>
+</div>
+<div class="index_label">
+    <img src="/Images/Common/lbl_guhao.png" />
+</div>
+<div class="index_doctor" id="divorderlist">
+
+</div>
+<div>
+    <input id="OrderType" name="OrderType" type="hidden" value="doctor" />
+    <input id="DoctorKey" name="DoctorKey" type="hidden" value="" />
+</div>
+<div>
+    <input id="hospitalid" name="hospitalid" type="hidden" value="" />
+    <input id="doctorid" name="doctorid" type="hidden" value="" />
+    <input id="doctorname" name="doctorname" type="hidden" value="" />
+    <input id="grade" name="grade" type="hidden" value="" />
+    <input id="deptl2" name="deptl2" type="hidden" value="" />
+    <input id="desc" name="desc" type="hidden" value="" />
+    <input id="worktime" name="worktime" type="hidden" value="" />
+    <input id="hospitalname" name="hospitalname" type="hidden" value="" />
+    <input id="resdeptl2" name="resdeptl2" type="hidden" value="" />
+    <input id="date" name="date" type="hidden" value="" />
+    <input id="time" name="time" type="hidden" value="" />
+    <input id="fee" name="fee" type="hidden" value="" /> 
+    <input id="address" name="address" type="hidden" value="" /> 
+    <input id="templateid" name="templateid" type="hidden" value="" /> 
+    <input id="ordertype" name="ordertype" type="hidden" value="doctor" />
+</div>
+<div id="popupLayerScreenLocker">
+</div>
+<div id="popupLayer_respopup">
+    <div id="resreservation">
+    
+</div>
+</div>
+<div id="popupLayer_confirmpopup">
+    <div id="confirminfo">
+    <div class="reservation_blank">
+        <label onclick="javascript:ClosePopup('popupLayer_confirmpopup');" style="float: right; width: 20px; height: 20px; color: #666; text-align: center; font: bold 18px Simsun; cursor: pointer;">×</label>
+    </div>
+    <div id="restemplatesp" style="width: 370px">
+        <div class="restemplate_user">
+            <table class="restemplate_user_table">
+                <tr>
+                    <td class="restemplate_user_td">病人姓名：</td>
+                    <td><label id="confirm_cardname"></label></td>
+                </tr>
+                <tr>
+                    <td class="restemplate_user_td">证件号码：</td>
+                    <td><label id="confirm_cardno"></label></td>
+                </tr>
+                <tr>
+                    <td class="restemplate_user_td">医疗卡号：</td>
+                    <td><label id="confirm_medicalcard"></label></td>
+                </tr>
+            </table>
+        </div>
+        <div class="restemplate_content">
+            <table class="restemplate_content_table">
+                <tr>
+                    <td class="restemplate_content_td">预约医院：</td>
+                    <td><label id="confirm_hospitalname"></label></td>
+                </tr>
+                <tr>
+                    <td class="restemplate_content_td">预约科室：</td>
+                    <td><label id="confirm_resdeptl2"></label></td>
+                </tr>
+                <tr>
+                    <td class="restemplate_content_td">预约专病：</td>
+                    <td><label id="confirm_doctorname"></label></td>
+                </tr>
+                <tr>
+                    <td class="restemplate_content_td">预约日期：</td>
+                    <td><label id="confirm_date"></label></td>
+                </tr>
+                <tr>
+                    <td class="restemplate_content_td">预约时间：</td>
+                    <td><label id="confirm_time"></label></td>
+                </tr>
+                <tr>
+                    <td class="restemplate_content_td">挂号价格：</td>
+                    <td class="restemplate_content_td_fee"><label id="confirm_fee"></label></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="rescardinfosp" style="color: #808080;letter-spacing: 1px; margin-top: 20px;">
+        <h2>预约成功！</h2>
+        <p>预约成功短信已发送到手机<label id="confirm_mobile" class="tootip"></label></p>
+        <p>
+			届时请携带预约时所留原始证件及就诊医疗卡准时至医院挂号。保留短信，以资凭证。<br /> 
+            如取消需要<span class="tootip">提前1日14:00之前</span>
+		</p>
+        <p>
+			如遇专家停诊，我们会以电话或短信通知到您，请保持手机畅通！<br />
+			您也可以关注“我的预约单”了解订单状态。
+		</p>
+        <a class="order-list-link" hidefocus="hidefocus" href="../Guahao/Mine">查看我的预约单?</a>
+    </div>
+</div>
+</div>
+<div id="popupLayer_logonpopup">
+    <script src="/Scripts/Custom/LogOn.js" type="text/javascript"></script>
+<script src="/Scripts/Custom/Guahao.js" type="text/javascript"></script>
+
+<div class="logon_container">
+    <div>
+        <label onclick="javascript:ClosePopup('popupLayer_logonpopup');" style="float: right; width: 20px; height: 20px; color: #666; text-align: center; font: bold 18px Simsun; cursor: pointer;">×</label>
+        
+    </div>
+    <div class="content_title">登录</div>
+    <div class="content_title_line"></div>
+    <div class="main_content clearfix">
+        <div class="color_red">
+            <label id="ErrorCode"></label>
+        </div>
+        <div>
+            <div class="main_content_item">
+                <div class="logon_label">
+                    登录名：
+                </div>
+                <div class="logon_field">
+                    <input id="UserName" name="UserName" type="text" value="" />
+                </div>
+            </div>
+            <div class="main_content_item">
+                <div class="logon_label">
+                    密码：
+                </div>
+                <div class="logon_field">
+                    <input id="Password" name="Password" type="password" />
+                </div>
+            </div>
+            <div class="main_content_item">
+                <div class="logon_label">
+                    验证码：
+                </div>
+                <div class="logon_field">
+                    <input id="VerifyCodeLog" name="VerifyCodeLog" title="看不清？点击更换" type="text" />
+                    <img id="VerifyImage" src="../Guahao/GetValidateCode" alt="验证码" style="cursor: pointer" />
+                    <label class="rescardinfo_verifycode_label" onclick="javascript:LoadVerifyImage();">换一张</label>
+                </div>
+            </div>
+            <div>
+                <input id="BtnLogon" type="button" value="登录" onclick="javascript:LogOn();" />
+                <a class="link_color" href="/Account/FindPwd" target="_blank">忘记密码？</a>
+                |
+                <a class="link_color" href="/Account/Register" target="_blank">快速注册</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div id="popupLayer_infopopup">
+    <script src="/Scripts/Custom/Guahao.js" type="text/javascript"></script>
+
+<div class="basic_container">
+    <div>
+        <label onclick="javascript:ClosePopup('popupLayer_infopopup');" style="float: right; width: 20px; height: 20px; color: #666; text-align: center; font: bold 18px Simsun; cursor: pointer;">×</label>
+        
+    </div>
+    <div class="content_title">就诊</div>
+    <div class="content_title_line"></div>
+    <div class="main_content clearfix">
+        <div class="color_red">
+            <label id="ErrorCode"></label>
+        </div>
+        <div>
+            <div class="main_content_item">
+                <div class="info_label">
+                    <span style="color: #3FA1EC">初诊（从未在瑞金医院就诊过）：</span>
+                </div>
+                <div class="info_field">
+                    <span style="color: #3FA1EC">初诊用户预约前，请正确填写真实姓名、证件类型、证件号码。</span>          
+                </div>
+                <div>
+                    <a class="link_color_right" href="/User/Index" target="_blank">点此维护</a>
+                </div>
+            </div>
+            <div class="main_content_item">
+                <div class="info_label">
+                    <span style="color: #3FA1EC">复诊（持有在瑞金医院就诊过的医疗卡）：</span>
+                </div>
+                <div class="info_field">
+                    <span style="color: #3FA1EC">复诊用户预约前，请正确填写真实姓名、证件类型、证件号码、医疗卡类型、医疗卡号码。</span>                 
+                </div>
+                <div>
+                    <a class="link_color_right" href="/User/AddCard" target="_blank">点此维护</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div id="popupLayer_cardpopup">
+    <script src="/Scripts/Custom/Guahao.js" type="text/javascript"></script>
+
+<div class="basic_container">
+    <div>
+        <label onclick="javascript:ClosePopup('popupLayer_cardpopup');" style="float: right; width: 20px; height: 20px; color: #666; text-align: center; font: bold 18px Simsun; cursor: pointer;">×</label>
+        
+    </div>
+    <div class="content_title">就诊</div>
+    <div class="content_title_line"></div>
+    <div class="main_content clearfix">
+        <div class="color_red">
+            <label id="ErrorCode"></label>
+        </div>
+        <div>
+            <div class="main_content_item">
+                
+                <div class="info_field">
+                    <span style="color: #3FA1EC">您以前从未在瑞金医院就诊过。（初诊）</span>                    
+                    
+                </div>
+                <div>
+                    <a class="link_color_right" onclick="javascript:ReservationCard();">请点击</a>
+                </div>
+            </div>
+            <div class="main_content_item">
+                
+                <div class="info_field">
+                    <span style="color: #3FA1EC">您持有在瑞金医院就诊过的社保或医联(自费)卡。（复诊）</span>
+                </div>
+                <div>
+                    <a class="link_color_right" href="/User/AddCard" target="_blank">请点击</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div id="popupLayer_deptl2popup">
+    <link href="/Content/DeptL2.css" rel="stylesheet" type="text/css" />
+
+<div id="deptl2content">
+    <label class="close" onclick="javascript:DeptL2Hidden();">×</label>
+    <ul id="tip">
+        <li id="tip0" class="selected" onclick="tipselect(0)">热门科室</li>
+        <li id="tip1" onclick="tipselect(1)">内科科室</li>
+        <li id="tip2" onclick="tipselect(2)">外科科室</li>
+        <li id="tip3" onclick="tipselect(3)">医技科室</li>
+    </ul>
+    <div id="dept">
+        
+    </div>
+</div>
+</div>
+<div id="loadingScreenLocker">
+</div> 
+<div id="loadingLayer" style="visibility: hidden;">
+    &nbsp;
+</div> 
+
+
+
+
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="footer">
+            
+<div class="foot">Copyrights 2005~2013 rjh.com.cn All Right Reserved</div>
+<div class="foot">党委办公室、院长办公室主办 党委宣传科协办 计算机中心制作 联系电话：021-64370045</div>
+<div class="foot">沪ICP备08114583</div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+http://yuyue.rjh.com.cn/Guahao/GetCardCredential
+
+1.<?xml version="1.0" encoding="utf-8" ?><xml><data><ID></ID><CardNo></CardNo><CardHolderName>刘保</CardHolderName><CardHolderCredentialID>13063419850416313X</CardHolderCredentialID></data></xml>
+
+
+2http://yuyue.rjh.com.cn/Guahao/GetValidateCode?time=2014-11-11%207:31:19
+post:time	2014-11-11 7:31:19
+
+
+3.psost:http://yuyue.rjh.com.cn/Guahao/GetReservation
+hospitalid=42502656400&doctorid=00000000010650&doctorname=王曙&grade=主任医师&deptl2=门诊内分泌&desc=内分泌疾病、骨质疏松、糖尿病、甲状腺等&worktime=星期二下午、星期六下午&hospitalname=瑞金医院&resdeptl2=门诊内分泌&date=2014-12-09 星期二&time=15:00-15:59&fee=20&address=&photo=/Upload/Doctor/42502656400/00000000010650.jpg&templateid=14111000000285&ordertype=doctor&status=false
+
+response:
+<div class="reservation_blank">
+<label onclick="javascript:ClosePopup('popupLayer_respopup');" 
+style="float: right; width: 20px; height: 20px; color: #666; text-align: center; 
+font: bold 18px Simsun; cursor: pointer;">×</label></div><div id="resdoctor">
+<div class="resdoctor_index"><div class="resdoctor_photo">
+<a href="../Guahao/Doctor?did=00000000010650&hid=42502656400&l1=&l2=%e9%97%a8%e8%af%8a%e5%86%85%e5%88%86%e6%b3%8c" 
+target="_blank"><img src="/Upload/Doctor/42502656400/00000000010650.jpg" 
+class="resdoctor_photo_size" title="王曙" id="resimg4250265640000000000010650" /></a>
+</div><div class="resdoctor_doctor"><table class="resdoctor_doctor_table"><tr>
+<td class="resdoctor_doctor_name">王曙</td></tr><tr><td>主任医师</td></tr><tr><td>门诊内分泌</td>
+</tr><tr><td class="resdoctor_doctor_disease">主诊常见病：</td>
+</tr><tr><td title="内分泌疾病、骨质疏松、糖尿病、甲状腺等">内分泌疾病、骨质疏松、糖尿病、甲..
+.</td></tr></table></div></div><div class="resdoctor_btn_collect">
+<input type="button" value="加入收藏"
+class="btn_collect" 
+onclick="javascript:CollectDoctor(this, '42502656400', '', '门诊内分泌', '00000000010650');" />
+</div></div><div id="restemplate">
+<div class="restemplate_user">
+<table class="restemplate_user_table"><tr><td class="restemplate_user_td">病人姓名：
+</td><td><label id="cardname"></label></td></tr><tr><td class="restemplate_user_td">证件号码：
+</td><td><label id="cardno"></label></td></tr><tr><td class="restemplate_user_td">手机号码：
+</td><td><label id="mobile">18611478781</label></td></tr></table></div><div class="restemplate_content">
+<table class="restemplate_content_table"><tr><td class="restemplate_content_td">预约医院：
+</td><td>瑞金医院</td></tr><tr><td class="restemplate_content_td">预约科室：</td><td>门诊内分泌</td>
+</tr><tr><td class="restemplate_content_td">预约专家：</td><td>王曙</td></tr><tr><td class="restemplate_content_td">
+预约日期：</td><td>2014-12-09 星期二</td></tr><tr><td class="restemplate_content_td">预约时间：</td>
+<td>15:00-15:59</td></tr><tr><td class="restemplate_content_td">挂号价格：
+</td><td class="restemplate_content_td_fee">20[仅供参考]</td></tr></table></div>
+</div><div id="rescardinfo"><div class="rescardinfo_cardinfo"><table class="rescardinfo_table"><tr><td>
+请选择医疗卡号：<a href="../User/AddCard" class="link_color" target="_blank">绑定卡号</a></td></tr><tr>
+<td><select id="UserCardId" name="UserCardId" onchange="javascript:GetCardCredential();"><option value="">
+刘保 初诊</option><option value="141771">刘保 132002101445509</option></select></td></tr></table></div>
+<div class="rescardinfo_verifycode"><table class="rescardinfo_table_code"><tr><td colspan="3">请填写验证码：
+</td></tr><tr class="rescardinfo_verifycode_tr"><td class="rescardinfo_verifycode_td"><input id="VerifyCode" 
+name="VerifyCode" onblur="javascript:RemoveOnfocus(this);" onfocus="javascript:AddOnfocus(this);" type="text" />
+</td><td><img id="VerifyImage" src="../Guahao/GetValidateCode?time=2014-11-11 7:31:19"  alt="验证码" />
+</td><td><label class="rescardinfo_verifycode_label" onclick="javascript:LoadVerifyImage();">换一张
+</label></td></tr><tr><td class="rescardinfo_verifycode_tr" colspan="3"><label id="ErrorCode"></label>
+</td></tr></table></div><div class="rescardinfo_btn_reservation"><img src="/Images/Common/btn_reservation.png" 
+onclick="javascript:SaveReservation('42502656400', '14111000000285', '王曙', '瑞金医院', '门诊内分泌', 
+'2014-12-09 星期二', '15:00-15:59', '20', '', 'doctor');" /></div></div><script type="text/javascript">
+</script>
+
+4.post:http://yuyue.rjh.com.cn/Guahao/SaveReservation
+ordertype=doctor&vefirycode=sa9t&usercardid=&hospitalid=42502656400&templateid=14111000000285&doctorname=王曙
+&hospitalname=瑞金医院&resdeptl2=门诊内分泌&date=2014-12-09 星期二&time=15:00-15:59&fee=20&address=
+
+response:您所选择的专家已约满，您可选择其他同类型专家预约
+
+
+
+
+116.236.230.120:80
+
+
+5.div class="rescardinfo_btn_reservation">
+<img onclick="javascript:SaveReservation('42502656400', '14111000000285', '王曙', '瑞金医院', 
+'门诊内分泌', '2014-12-09 星期二', '15:00-15:59', '20', '', 'doctor');" src="/Images/Common/btn_reservation.png">
+</div>
+
+验证码：
+../Guahao/GetValidateCode?time=2014-11-11 7:31:19
+http://yuyue.rjh.com.cn/Guahao/GetValidateCode?time=2014-11-11%207:31:19
+
+
+
+提交表单：
+http://yuyue.rjh.com.cn/Guahao/SaveReservation
+address=
+date=2014-12-09 星期二
+doctorname=王曙
+fee=20
+hospitalid=42502656400
+hospitalname=瑞金医院
+ordertype=doctor
+resdeptl2=门诊内分泌
+templateid=14111000000285
+time=15:00-15:59
+usercardid=
+vefirycode=sa9t
+
+
+ordertype=doctor&vefirycode=sa9t&usercardid=&hospitalid=42502656400&templateid=14111000000285&doctorname=王曙&hospitalname=瑞金医院&resdeptl2=门诊内分泌&date=2014-12-09 星期二&time=15:00-15:59&fee=20&address=
+
+
+http://yuyue.rjh.com.cn/Guahao/SaveReservation?address=&date=2014-12-09%20%E6%98%9F%E6%9C%9F%E4%BA%8C&doctorname=%E7%8E%8B%E6%9B%99&fee=20&hospitalid=42502656400&hospitalname=%E7%91%9E%E9%87%91%E5%8C%BB%E9%99%A2&ordertype=doctor&resdeptl2=%E9%97%A8%E8%AF%8A%E5%86%85%E5%88%86%E6%B3%8C&templateid=14111000000285&time=15%3A00-15%3A59&usercardid=&vefirycode=sa9t
+
+POST /Guahao/SaveReservation HTTP/1.1
+Host: yuyue.rjh.com.cn
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0
+Accept: */*
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+X-Requested-With: XMLHttpRequest
+Referer: http://yuyue.rjh.com.cn/Guahao/Index
+Content-Length: 222
+Cookie: ASP.NET_SessionId=al0lqfmz24g31vbj3z5u0x1j; .ASPXAUTH=4C3CCB4CEC88508919693F175D2C74D7F8F53F00B98EB83401B5076BAFC105653DDB32130B46FCE24488E871283F8E9FD8543B1C78755321AB1E614C7FD58CA95C3B744BDB6C4CC80E2070530A3A1C56
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+
+
+
+curl 'http://yuyue.rjh.com.cn/Guahao/SaveReservation' -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3' -H 'Cache-Control: no-cache' -H 'Connection: keep-alive' -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' -H 'Cookie: ASP.NET_SessionId=al0lqfmz24g31vbj3z5u0x1j; .ASPXAUTH=4C3CCB4CEC88508919693F175D2C74D7F8F53F00B98EB83401B5076BAFC105653DDB32130B46FCE24488E871283F8E9FD8543B1C78755321AB1E614C7FD58CA95C3B744BDB6C4CC80E2070530A3A1C56' -H 'Host: yuyue.rjh.com.cn' -H 'Pragma: no-cache' -H 'Referer: http://yuyue.rjh.com.cn/Guahao/Index' -H 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0' -H 'X-Requested-With: XMLHttpRequest' --data $'ordertype=doctor&vefirycode=sa9t&usercardid=&hospitalid=42502656400&templateid=14111000000285&doctorname=\u738b\u66d9&hospitalname=\u745e\u91d1\u533b\u9662&resdeptl2=\u95e8\u8bca\u5185\u5206\u6ccc&date=2014-12-09 \u661f\u671f\u4e8c&time=15:00-15:59&fee=20&address='
+
+
+
+
+
+http://yuyue.rjh.com.cn/Guahao/GetCardCredential
+
+post：cardid	141771
+response：
+?xml version="1.0" encoding="utf-8" ?><xml><data><ID>141771</ID><CardNo>132002101445509</CardNo><CardHolderName>刘保</CardHolderName><CardHolderCredentialID>13063419850416313X</CardHolderCredentialID></data></xml>
+
+
+
+
+
