@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.meidusa.fastjson.JSON;
+import com.alibaba.fastjson.JSON;
 import com.saick.base.dao.entiy.Coupon;
 import com.saick.base.excel.Excel2007And2003Reader;
 import com.saick.base.excel.Excel2007XSSFReader;

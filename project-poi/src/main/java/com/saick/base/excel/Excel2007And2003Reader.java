@@ -8,9 +8,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
-
-
-
 import java.util.Map;
 
 import org.apache.commons.lang3.StringUtils;
@@ -25,7 +22,8 @@ import org.junit.Assert;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.meidusa.fastjson.JSON;
+import com.alibaba.fastjson.JSON;
+import com.saick.base.dao.entiy.LotteryRecord;
 import com.saick.base.dao.entiy.UserCoupon;
 import com.saick.base.dao.entiy.UserCouponDOP;
 import com.saick.base.dao.entiy.VehicleSuit;
@@ -41,8 +39,89 @@ public class Excel2007And2003Reader {
         //test02();
 //        test03();
 //        test04();
-        test05();
+//        test05();
+        test07();
     }
+    
+    /**
+     *彩票数据解析导出
+     */
+    private static void test07() {
+        Excel2007And2003Reader ReadExcel2 = new Excel2007And2003Reader();
+        try {
+            List<List<String>> readExcel = ReadExcel2
+                    .readExcel("D:\\temp\\2015年双色球开奖记录.xls");
+            
+            //构造json格式数据
+            List<LotteryRecord> lotteryRecordList=new ArrayList<LotteryRecord>();
+            
+            //删除标题行
+            readExcel.remove(0);
+            
+            int i=0;
+            for (List<String> list : readExcel) {
+                ++i;
+                if (i >= 155) {
+                    break;
+                }
+                System.out.println(i);
+                String string = list.get(1);
+                String[] split = string.split("\\||,");
+                
+                LotteryRecord lotteryRecord = new LotteryRecord(
+                        list.get(2), Integer.valueOf(split[0]),
+                        Integer.valueOf(split[1]), Integer.valueOf(split[2]),
+                        Integer.valueOf(split[3]), Integer.valueOf(split[4]),
+                        Integer.valueOf(split[5]),Integer.valueOf(split[6]));
+                lotteryRecordList.add(lotteryRecord);
+            }
+            
+            System.out.println("===========================");
+            System.out.println(JSON.toJSONString(lotteryRecordList));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        
+    }
+    
+    private static void test06() {
+        Excel2007And2003Reader ReadExcel2 = new Excel2007And2003Reader();
+        try {
+            List<List<String>> readExcel = ReadExcel2
+                    .readExcel("D:\\temp\\2015044期下载.xls");
+            
+            //构造json格式数据
+            List<LotteryRecord> lotteryRecordList=new ArrayList<LotteryRecord>();
+            
+            //删除标题行
+            readExcel.remove(0);
+            
+            int i=0;
+            for (List<String> list : readExcel) {
+                ++i;
+                if (i >= 1790) {
+                    break;
+                }
+                System.out.println(i);
+                LotteryRecord lotteryRecord = new LotteryRecord(Float.valueOf(list.get(0)).intValue()+"",
+                        Float.valueOf(list.get(1)).intValue(), Float.valueOf(
+                                list.get(2)).intValue(), Float.valueOf(
+                                list.get(3)).intValue(), Float.valueOf(
+                                list.get(4)).intValue(), Float.valueOf(
+                                list.get(5)).intValue(), Float.valueOf(
+                                list.get(6)).intValue(), Float.valueOf(
+                                list.get(7)).intValue());
+                lotteryRecordList.add(lotteryRecord);
+            }
+            
+            System.out.println("===========================");
+            System.out.println(JSON.toJSONString(lotteryRecordList));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        
+    }
+    
     
     /**
      * 导出文件方法012-大众保养套餐信息导出
@@ -172,7 +251,7 @@ public class Excel2007And2003Reader {
             Assert.assertEquals(5758, couponList.size());
             
             System.out.println("==========="+couponList.size()+"================");
-            System.out.println(JSON.toJSONString(couponList));
+            System.out.println(com.alibaba.fastjson.JSON.toJSONString(couponList));
         } catch (Exception e) {
             e.printStackTrace();
         }

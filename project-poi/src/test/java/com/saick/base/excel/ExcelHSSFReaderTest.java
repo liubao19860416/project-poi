@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.junit.Test;
 
-import com.meidusa.fastjson.JSON;
+import com.alibaba.fastjson.JSON;
 import com.saick.base.dao.entiy.Coupon;
 import com.saick.base.service.api.ExcelImportService;
 import com.saick.base.service.impl.BaseServiceTest;

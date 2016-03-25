@@ -1,5 +1,16 @@
 package com.saick.base.controller;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+/**
+ * 几个可以使用静态导包方式引入的参数方法
+ */
+//import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
+//import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+//import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+//import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -13,20 +24,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
-import com.meidusa.fastjson.JSON;
-import com.meidusa.fastjson.JSONObject;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.saick.base.controller.vo.CouponViewObject;
 import com.saick.base.dao.entiy.Coupon;
 import com.saick.base.service.api.CouponService;
-
-import static org.junit.Assert.*;
-/**
- * 几个可以使用静态导包方式引入的参数方法
- */
-//import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
-//import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
-//import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
-//import static org.junit.Assert.*;
 
 /**
  * IndexController测试类

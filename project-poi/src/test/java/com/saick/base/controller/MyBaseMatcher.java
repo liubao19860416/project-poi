@@ -15,8 +15,8 @@ import org.apache.commons.lang.StringUtils;
 import org.hamcrest.BaseMatcher;
 import org.hamcrest.Description;
 
-import com.meidusa.fastjson.JSON;
-import com.meidusa.fastjson.JSONObject;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.saick.base.result.ResultInfo;
 
 /**
