@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.saike.grape.base.BaseEnvironment;
+import com.saick.base.BaseEnvironment;
 
 /**
  * DAO层基础测试类，加载junit+spring环境 OK
